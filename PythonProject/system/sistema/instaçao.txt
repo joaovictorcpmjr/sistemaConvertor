@@ -1,0 +1,32 @@
+instalação
+1 instalar python 
+https://www.python.org/downloads/
+
+2 no terminal
+pip install colorama
+pip install pillow
+pip install playsound
+pip install watchdog
+
+3 criar .bat
+
+
+@echo off
+python diretorio \PythonProject\system\System_placa.py"
+pause
+
+
+
+
+4 teste
+5 colocar pra executar automaticamente ao reiniciar
+Criar um atalho para o arquivo .bat:
+
+Encontre o seu arquivo .bat no local em que ele está salvo.
+Clique com o botão direito no arquivo .bat e selecione Criar atalho.
+Mover o atalho para a pasta de inicialização:
+
+Pressione Win + R para abrir o Executar.
+Digite shell:startup e pressione Enter. Isso abrirá a pasta de inicialização do Windows.
+Copie o atalho do seu arquivo .bat para esta pasta.
+
